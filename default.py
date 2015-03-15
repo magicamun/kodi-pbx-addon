@@ -215,6 +215,8 @@ class MainGUI(xbmcgui.WindowXML):
                                 prop = date_format(float(prop)) + " " +  time_format(float(prop))
                             if (childNode.nodeName == "duration"):
                                 prop = duration_format(float(prop))
+                            if (childNode.nodeName == "origtime"):
+                                prop = date_format(float(prop)) + " " +  time_format(float(prop))
                             log(">> childNode.nodeName " + childNode.nodeName)
                             listitem.setProperty(childNode.nodeName, prop)
                         else:

@@ -32,7 +32,7 @@ $__version__            = "1.14.0";
 
 // ************************************************************************************************************
 // YOU MAY WANT TO CUSTOMIZE THIS:
-$__usecdrdb__		= "no";
+$__usecdrdb__		= "yes";
 // If the above is no then use the cdr_filename else - use the database-connection
 $cdr_filename           = "/var/log/asterisk/cdr-csv/Master.csv";
 // use the database connection ?
@@ -252,13 +252,8 @@ elseif (isset($_GET["cdr"]) || isset($_GET["vm"])) {
                 $node->appendChild($element);
                 foreach ($c as $key => $val) {
                     $element = $xmldoc->createElement($key);
-                    if ($key == 'origtime') {
-                        $val = date("Y-m-d H:i:s",$val);
-                    }
                     $element->appendChild($xmldoc->createTextNode(utf8_encode($val)));
-                    if ($key != 'origdate') {
-                        $node->appendChild($element);
-                    }
+                    §node->appendChild($element);
                 }
                 $xmlroot->appendChild($node);
             }
