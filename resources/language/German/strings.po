@@ -1,0 +1,395 @@
+# Kodi Media Center language file
+# Addon Name: Kodi PBX Addon
+# Addon id: script.kodi-pbx-addon
+# Addon version: 1.0.10
+# Addon Provider: hmronline
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2015-03-07 10:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "Addon Summary"
+msgid "Kodi PBX Addon aims to provide a completely new Home Telephony Experience by integrating Asterisk into Kodi."
+msgstr "Kodi PBX Addon schafft ein komplett neues Heim-Telefon-Erlebnis durch die Integration von Asterisk in Kodi"
+
+msgctxt "Addon Description"
+msgid "By integratating Asterisk into Kodi you can use it as a front-end for certain functionality (like playing voicemail) and to automate some tasks (like pausing video on incoming calls), among other features."
+msgstr "Durch die Integration von Asterisk in Kodi wird Kodi zum Frontend für bestimmte Funktionen von Asterisk wie z.B. Abspielen der Sprachnachrichten, Anhalten des Video-Playback"
+
+
+msgctxt "Addon Disclaimer"
+msgid "You have to have a properly set-up and running Asterisk server."
+msgstr "Du brauchst einen korrekt aufgesetzten Asterisk Server"
+
+msgctxt "#30000"
+msgid "Kodi PBX Addon"
+msgstr "Kodi PBX Addon"
+
+msgctxt "#30001"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "#30002"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "#30003"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "#30004"
+msgid "Disable background service"
+msgstr "Deaktivieren des Hintergrunddienstes"
+
+msgctxt "#30010"
+msgid "Connection"
+msgstr "Verbindung"
+
+msgctxt "#30011"
+msgid "Asterisk Manager Interface (AMI)"
+msgstr "Asterisk Manager Interface (AMI)"
+
+msgctxt "#30012"
+msgid "Define here the connection information to AMI"
+msgstr "Konfiguration der Verbindungsdaten zum AMI"
+
+msgctxt "#30013"
+msgid "PBX: AMI Hostname or IP Address"
+msgstr "PBX: AMI Hostname oder IP-Adresse"
+
+msgctxt "#30014"
+msgid "PBX: AMI Port"
+msgstr "PBX: AMI Port"
+
+msgctxt "#30015"
+msgid "PBX: AMI Username"
+msgstr "PBX: AMI Benutzername"
+
+msgctxt "#30016"
+msgid "PBX: AMI Password"
+msgstr "PBX: AMI Passwort"
+
+msgctxt "#30020"
+msgid "Inbound Calls"
+msgstr "Eingehende Anrufe"
+
+msgctxt "#30021"
+msgid "Define here what to do on inbound calls"
+msgstr "Konfiguration für eingehende Anrufe"
+
+msgctxt "#30022"
+msgid "Kodi: Initiate upon Asterisk NewChannel State"
+msgstr "Kodi: Starten wenn Asterisk \"NewChannel State\" ist"
+
+msgctxt "#30023"
+msgid "Kodi: Initiate only if ALERT_INFO equals to:"
+msgstr "Kodi: Nur starten wenn \"ALERT_INFO\" ist gleich"
+
+msgctxt "#30024"
+msgid "Kodi: Show Caller ID notification"
+msgstr "Kodi: Zeige Anrufer-ID Benachrichtigung"
+
+msgctxt "#30025"
+msgid "Kodi: Caller ID notification timeout"
+msgstr "Kodi: Anrufer-ID Benachrichtigungs-Timeout"
+
+msgctxt "#30026"
+msgid "Kodi: Pause playing Video"
+msgstr "Kodi: Video pausieren"
+
+msgctxt "#30027"
+msgid "PBX: Redirect calls if Kodi is playing Video"
+msgstr "PBX: Anrufe umleiten wenn Kodie Video abspielt"
+
+msgctxt "#30028"
+msgid "PBX: Redirect calls to context (name)"
+msgstr "PBX: Anrufe umleiten zum Kontext (name)"
+
+msgctxt "#30029"
+msgid "PBX: Redirect only if ALERT_INFO equals to:"
+msgstr "PBX: Nur Umleiten, wenn \"ALERT_INFO\" ist gleich"
+
+msgctxt "#30030"
+msgid "Outbound Calls"
+msgstr "Ausgehende Anrufe"
+
+msgctxt "#30031"
+msgid "Define here what to do with outbound calls"
+msgstr "Konfiguration für ausgehende Anrufe"
+
+msgctxt "#30032"
+msgid "PBX: Use extension"
+sgstr "PBX: Benutze Leitung"
+
+msgctxt "#30033"
+msgid "PBX: Use context"
+msgstr "PBX: Benutze Kontext"
+
+msgctxt "#30040"
+msgid "CDR & VoiceMail"
+msgstr "Anrufliste & Sprachnachrichten"
+
+msgctxt "#30041"
+msgid "Define here how to retrieve CDR and VoiceMail"
+msgstr "Konfiguration für die Anrufliste und Sprachnachrichten"
+
+msgctxt "#30042"
+msgid "Kodi: URL to Kodi-pbx-addon.php"
+msgstr "Kodi: URL zu kodi-pbx-addon.php"
+
+msgctxt "#30043"
+msgid "Kodi: VoiceMail notification timeout"
+msgstr "Kodi: Timeout bei Benachrichtigung für Sprachnachrichten"
+
+msgctxt "#30044"
+msgid "PBX: Mailbox number"
+msgstr "PBX: Sprachnachrichten für Nummer"
+
+msgctxt "#30045"
+msgid "PBX: VoiceMail Context"
+msgstr "PBX: Kontext für Sprachnachrichten"
+
+msgctxt "#30046"
+msgid "PBX: Audio Format"
+msgstr "PBX: Audio Format"
+
+msgctxt "#30047"
+msgid "Message Waiting Indicator (MWI)"
+msgstr "Anzeige für wartende Nachrichten (MWI)"
+
+msgctxt "#30048"
+msgid "MWI: After listening a VM, clear message count"
+msgstr "MWI: Anzeige für wartende Nachrichten löschen nach Abhören"
+
+msgctxt "#30050"
+msgid "Incoming Call"
+msgstr "Eingehender Anruf"
+
+msgctxt "#30051"
+msgid "Kodi PBX Addon Error"
+msgstr "Kodi: PBX Addon-Fehler"
+
+msgctxt "#30052"
+msgid "Voice Mail Count"
+msgstr "Sprachnachrichten"
+
+msgctxt "#30053"
+msgid "New messages: "
+msgstr "Neue Nachrichten: "
+
+msgctxt "#30061"
+msgid "Kodi: Show Caller's Picture"
+msgstr "Kodi: Zeige Bild des Anrufers"
+
+msgctxt "#30062"
+msgid "Kodi: Search for Caller's Picture here:"
+msgstr "Kodi: Pfad zu Anruferbildern:"
+
+msgctxt "#30063"
+msgid "Fetching Back-end Info..."
+msgstr "Hole Anrufliste..."
+
+msgctxt "#30064"
+msgid "Displaying Back-end Info..."
+msgstr "Zeige Anrufliste..."
+
+msgctxt "#30065"
+msgid "Done..."
+msgstr "Fertig..."
+
+msgctxt "#30101"
+msgid "Show CDR"
+msgstr "Anrufliste"
+
+msgctxt "#30102"
+msgid "Show Voice Mail"
+msgstr "Sprachnachrichten"
+
+msgctxt "#30103"
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgctxt "#30104"
+msgid "Initiate outgoing call to"
+msgstr "Initiire ausgehenden Anruf zu"
+
+msgctxt "#30105"
+msgid "Play Voice Mail?"
+msgstr "Sprachnnachricht abspielen?"
+
+msgctxt "#30106"
+msgid "Delete Voice Mail?"
+msgstr "Sprachnachricht löschen?"
+
+msgctxt "#30107"
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgctxt "#30108"
+msgid "Dialpad"
+msgstr "Wählfeld"
+
+msgctxt "#30110"
+msgid "Call Detail Record"
+msgstr "Anrufliste"
+
+msgctxt "#30111"
+msgid "Account Code"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Source"
+msgstr "Quelle"
+
+msgctxt "#30113"
+msgid "Destination"
+msgstr "Ziel"
+
+msgctxt "#30114"
+msgid "Destination Context"
+msgstr "Ziel-Kontext"
+
+msgctxt "#30115"
+msgid "Caller ID"
+msgstr "Anrufer ID"
+
+msgctxt "#30116"
+msgid "Channel"
+msgstr "Kanal"
+
+msgctxt "#30117"
+msgid "Destination Channel"
+msgstr "Ziel-Kanal"
+
+msgctxt "#30118"
+msgid "Last Application"
+msgstr "Letzte Anwendung"
+
+msgctxt "#30119"
+msgid "Last Data"
+msgstr "Abschlussdaten"
+
+msgctxt "#30120"
+msgid "Start of call"
+msgstr "Beginn des Anrufes"
+
+msgctxt "#30121"
+msgid "Answer of call"
+msgstr "Anruf beantwortet"
+
+msgctxt "#30122"
+msgid "End of call"
+msgstr "Anruf beendet"
+
+msgctxt "#30123"
+msgid "Duration"
+msgstr "Dauer"
+
+msgctxt "#30124"
+msgid "Billing Seconds"
+msgstr "Abrechnungsdauer"
+
+msgctxt "#30125"
+msgid "Disposition"
+msgstr "Disposition"
+
+msgctxt "#30126"
+msgid "AMA Flags"
+msgstr "AMA Flags"
+
+msgctxt "#30127"
+msgid "Unique ID"
+msgstr "Eindeutige ID"
+
+msgctxt "#30129"
+msgid "User Field"
+msgstr "Benutzerfeld"
+
+msgctxt "#30130"
+msgid "Call Date"
+msgstr "Anrufdatum"
+
+msgctxt "#30150"
+msgid "Voice Mail"
+msgstr "Sprachnachricht"
+
+msgctxt "#30151"
+msgid "Mailbox"
+msgstr "Sprachbox"
+
+msgctxt "#30152"
+msgid "Context"
+msgstr "Kontext"
+
+msgctxt "#30153"
+msgid "Macro Context"
+msgstr "Makrokontext"
+
+msgctxt "#30154"
+msgid "Extension"
+msgstr "Leitung"
+
+msgctxt "#30155"
+msgid "Priority"
+msgstr "Priorität"
+
+msgctxt "#30156"
+msgid "Caller Channel"
+msgstr "Anrufer Kanal"
+
+msgctxt "#30157"
+msgid "Caller ID"
+msgstr "Anrufer ID"
+
+msgctxt "#30159"
+msgid "Date/Time"
+msgstr "Datum/Zeit"
+
+msgctxt "#30160"
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "#30161"
+msgid "Flag"
+msgstr "Flag"
+
+msgctxt "#30162"
+msgid "Duration"
+msgstr "Dauer"
+
+msgctxt "#30163"
+msgid "Recording Index"
+msgstr "Aufnahmeindex"
+
+msgctxt "#30171"
+msgid "-== First time use instructions ==-"
+msgstr "-== Anleitung für die Erstbenutzung ==-"
+
+msgctxt "#30173"
+msgid "Make sure you followed all installation instructions from http://code.google.com/p/kodi-pbx-addon/"
+msgstr "Überprüfe, daß alle Einstellungen gemäß der Aneleitung von http://code.google.com/p/kodi-pbx-addon/ durchgeführt sind."
+
+msgctxt "#30175"
+msgid "You will now be prompted to customize this Add-on settings."
+msgstr "Du wirst nun aufgefordert die Einstllungen des Add-On's anzupassen."
+
+msgctxt "#30176"
+msgid "If you already did it, you can just ignore it."
+msgstr "Wenn das schon passiert ist, ignorieren."
+
+msgctxt "#30177"
+msgid "Once you finished, start this Add-on again. You will not see this screen again."
+msgstr "Sobald das erledigt ist, das Add-on neu starten. Dieser Bildschirm wird nicht noch einmal gezeigt."
+
+msgctxt "#30179"
+msgid "Press any key to continue."
+msgstr "Taste für weiter."
