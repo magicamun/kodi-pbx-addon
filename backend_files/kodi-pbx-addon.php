@@ -253,7 +253,7 @@ elseif (isset($_GET["cdr"]) || isset($_GET["vm"])) {
                 foreach ($c as $key => $val) {
                     $element = $xmldoc->createElement($key);
                     $element->appendChild($xmldoc->createTextNode(utf8_encode($val)));
-                    §node->appendChild($element);
+                    $node->appendChild($element);
                 }
                 $xmlroot->appendChild($node);
             }
