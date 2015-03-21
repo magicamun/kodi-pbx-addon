@@ -5,7 +5,7 @@
   * Adopted to current translation - handling
   * Introduced German translation
   * Changed backend-Script to provide UTC-Seconds instead of plain Asterisk Datetime-Strings
-  * Added MYsql-Support to backend-script (See Options in kodi-pbx-addon.php
+  * Added Mysql-Support to backend-script (See Options in kodi-pbx-addon.php
   * Changed Front-End to display UTC-Values from backend according to regional settings
   * Changed display of Caller's Picture to thumb within popup on incoming calls
 
